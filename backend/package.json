@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "server": "nodemon build/index.js",
+    "tscw": "tsc src/index.ts --outDir build -w"
+  },
+  "author": "Arda Cinar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.4",
+    "express-graphql": "^0.6.7",
+    "graphql": "^0.10.5"
+  }
+}
