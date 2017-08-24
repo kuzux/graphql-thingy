@@ -4,7 +4,6 @@ import { Schema } from './schema';
 
 const app = express();
 
-
 app.use('/graphql', expressGraphQL({
     schema: Schema,
     graphiql: true
